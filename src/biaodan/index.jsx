@@ -24,6 +24,7 @@ class RegistrationForm extends React.Component {
 
     }
 
+
     handleClick =()=>{
         axios.post('/u/addUser', {
             username: this.state.name,
